@@ -1,5 +1,17 @@
 require "bundler/setup"
 require "morbotron"
+require "webmock/rspec"
+require "vcr"
+
+WebMock.allow_net_connect!
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/vcr_cassettes"
+  config.hook_into :webmock
+  config.default_cassette_options = {
+    match_requests_on: [:method, :host, :path]
+  }
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
