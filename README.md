@@ -25,14 +25,14 @@ There are a couple ways to get screencaps from the Morbotron API through this ge
 You can get an array of screencaps that match a specific search term:
 
 ```
-Morbotron::Screencap.search('We're making beer')
+Morbotron::Screencap.search("We're making beer")
 ```
 
 
 And you can get a random screencap from the aforementioned array of screencaps:
 
 ```
-Morbotron::Screencap.random('We're making beer')
+Morbotron::Screencap.random("We're making beer")
 ```
 
 After getting a screencap object, you now have easy access to the attributes: ```id```, ```episode``` and ```timestamp```.
