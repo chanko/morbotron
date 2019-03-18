@@ -1,4 +1,5 @@
-require "morbotron/version"
+require 'morbotron/version'
+require 'morbotron/screencap'
 
 module Morbotron
   class Error < StandardError; end
