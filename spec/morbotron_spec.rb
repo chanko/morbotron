@@ -1,9 +1,5 @@
 RSpec.describe Morbotron do
   it "has a version number" do
-    expect(Morbotron::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(Morbotron::VERSION).to eq('0.0.1')
   end
 end
