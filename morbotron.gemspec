@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["chanko@gmail.com"]
 
   spec.summary       = %q{Gem to wrap Morbotron.com API}
-  spec.description   = %q{Gem to wrap Morbotron.com API}
   spec.homepage      = 'https://github.com/chanko/morbotron'
   spec.license       = "MIT"
 

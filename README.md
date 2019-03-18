@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install morbotron -v 0.0.5
+    $ gem install morbotron -v 0.0.1
 
 ## Usage
 
@@ -25,14 +25,14 @@ There are a couple ways to get screencaps from the Morbotron API through this ge
 You can get an array of screencaps that match a specific search term:
 
 ```
-Morbotron::Screencap.search('lazy saturday')
+Morbotron::Screencap.search('We're making beer')
 ```
 
 
 And you can get a random screencap from the aforementioned array of screencaps:
 
 ```
-Morbotron::Screencap.random('lazy saturday')
+Morbotron::Screencap.random('We're making beer')
 ```
 
 After getting a screencap object, you now have easy access to the attributes: ```id```, ```episode``` and ```timestamp```.
@@ -48,11 +48,11 @@ And finally, there's the ```meme_url```. When used without params, this returns 
 You can also customize the image by overlaying your own captions on top of the image like so:
 
 ```
-screencap.meme_url("I love those lazy Saturdays")
+screencap.meme_url("We're making beer")
 ```
 Or multiple lines of text like so:
 ```
-screencap.meme_url(["I love those lazy Saturdays", "Unlike that fake Saturday that almost got me fired"])
+screencap.meme_url(["We're making beer. I'm the brewery.", "I heard alcohol makes you stupid."])
 ```
 
 ## Development
