@@ -3,7 +3,7 @@ require "morbotron"
 require "webmock/rspec"
 require "vcr"
 
-WebMock.allow_net_connect!
+WebMock.disable_net_connect!(allow_localhost: true)
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/vcr_cassettes"
