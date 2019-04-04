@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    morbotron (0.0.1)
+    morbotron (0.0.2)
       faraday (~> 0.15)
       json (~> 2.2)
       word_wrap (~> 1.0)

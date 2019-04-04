@@ -7,7 +7,7 @@ A ruby wrapper to interact with Morbotron.com API based on Ben Lewis's post: [Wr
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'morbotron', '~> 0.0.1'
+gem 'morbotron', '~> 0.0.2'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install morbotron -v 0.0.1
+    $ gem install morbotron -v 0.0.2
 
 ## Usage
 
